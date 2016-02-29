@@ -1,3 +1,3 @@
 # PhxOembed
 
-Phoenix oEmbed server
+A simple oEmbed server for the Phoenix web framework
