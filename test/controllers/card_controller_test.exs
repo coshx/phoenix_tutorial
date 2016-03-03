@@ -19,7 +19,7 @@ defmodule PhxOembed.CardControllerTest do
   test "throws an error when card is nonexistent", %{conn: conn} do
     fake_url = "http://example.com/dogs"
     assert_error_sent 404, fn ->
-      get conn, "/?url=" <> fake_url
+      get conn, card_path(conn, :show, url: fake_url)
     end
   end
 end
