@@ -1,3 +1,3 @@
-# PhxOembed
+# Phoenix Tutorial
 
-A simple oEmbed server for the Phoenix web framework
+A simple implementation of the oEmbed protocol using Phoenix.
